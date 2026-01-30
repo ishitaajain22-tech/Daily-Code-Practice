@@ -11,7 +11,8 @@ void lower(char str[]){
 }
 int main() 
 {
-    char str[10] = "Radar";
+    string str;
+    cin>>str;
     int i, len, flag = 0;
     
     lower(str);
