@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Main {
     static void getPrimeF(int n) {
         while (n % 2 == 0) {
-            System.out.print(2 + " ");
+            System.out.print(2 + "  ");
             n /= 2;
         }
 
